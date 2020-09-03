@@ -3,12 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="net.metrosystems.demo.tests.AmazonTest">
+      <class name="net.metrosystems.demo.tests.AmazonPomTest">
         <methods>
-          <include name="amazonTest"/>
-          <include name="setDriverPath"/>
+          <include name="insertPassword"/>
+          <include name="verifyProductPage"/>
+          <include name="before"/>
         </methods>
-      </class> <!-- net.metrosystems.demo.tests.AmazonTest -->
+      </class> <!-- net.metrosystems.demo.tests.AmazonPomTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

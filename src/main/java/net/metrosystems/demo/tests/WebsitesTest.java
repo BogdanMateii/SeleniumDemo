@@ -1,11 +1,12 @@
 package net.metrosystems.demo.tests;
 
-import net.metrosystems.demo.base.*;
 import java.awt.AWTException;
 import org.openqa.selenium.Dimension;
 import org.testng.annotations.Test;
 
-public class WebsitesTest extends TestBaseSetup {
+import net.metrosystems.demo.utils.*;
+
+public class WebsitesTest extends DriverInit {
 
 	private String urlEmag = "https://emag.ro";
 	private String urlElefant;
